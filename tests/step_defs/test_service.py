@@ -23,7 +23,6 @@ def ddg_response(phrase):
     response = requests.get(DUCKDUCKGO_API, params=params)
     return response
 
-
 # Then Steps
 @then(parsers.parse('the response contains results for {phrase}'))
 def ddg_response_contents(ddg_response, phrase):
