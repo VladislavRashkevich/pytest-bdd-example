@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 pytest = "*"
 pytest-bdd = "*"
+selenium = "*"
+requests = "*"
 
 [dev-packages]
 
